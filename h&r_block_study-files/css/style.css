@@ -180,3 +180,25 @@ textarea {
   color: #dd4b39;
 }
 */
+
+/* ------------------------------------- */
+
+/* @media stuff */
+/* On screens that are 992px or less, #home = display none */
+
+/* iPhone X */
+@media screen and (max-width: 375px) {
+  #home {
+    display: none;
+  }
+}
+
+/* iPhone X, 6, 5, iPad, iPad Pro */
+@media screen and (max-width: 1625px) {
+  #home {
+    display: none;
+  }
+  #home_button {
+    display: none;
+  }
+}
